@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+box-sizing: border-box
+}
+.btn{
+    width: 196px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #3E334E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    border: 1px solid #3E334E;
+}
+.btn-color-white{
+    background: transparent;
+    color: #3E334E;
+}
+.btn-color-seriy{
+    background: #3E334E;
+    color: #FFFFFF;
+}
